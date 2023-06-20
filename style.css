@@ -1,0 +1,24 @@
+body {
+  background-color: #B3A0FF;
+}
+
+main {
+  background-color: #1C1148;
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+}
+
+.screen {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #27166D
+}
+
+.buttons {
+  width: 72px;
+  height: 72px;
+  background-color: #27166D;
+  border-radius: 100%;
+}
