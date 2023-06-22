@@ -14,24 +14,25 @@
   <main>
     <div class="screen"></div>
       <div class="container-buttons">
-        
-        <div class="buttons operadores">+</div>
-        <div class="buttons operadores">-</div>
-        <div class="buttons operadores">x</div>
-        <div class="buttons operadores">/</div>
-        <div class="buttons all-clean">AC</div>
-        <div class="buttons">1</div>
-        <div class="buttons">2</div>
-        <div class="buttons">3</div>
-        <div class="buttons">4</div>
-        <div class="buttons">5</div>
-        <div class="buttons">6</div>
-        <div class="buttons">7</div>
-        <div class="buttons">8</div>
-        <div class="buttons">9</div>
-        <div class="buttons">0</div>
-        <div class="buttons">=</div>
+        <button class="buttons operadores" value="+" onclick="insertOperation(this.value)">+</button>
+        <button class="buttons operadores" value="-" onclick="insertOperation(this.value)">-</button>
+        <button class="buttons operadores" value="x" onclick="insertOperation(this.value)">x</button>
+        <button class="buttons operadores" value="/" onclick="insertOperation(this.value)">/</button>
+        <button class="buttons all-clean"  value="AC" onclick="insertOperation(this.value)">AC</button>
+        <button class="buttons" value="1" onclick="insertNumber(this.value)">1</button>
+        <button class="buttons" value="2" onclick="insertNumber(this.value)">2</button>
+        <button class="buttons" value="3" onclick="insertNumber(this.value)">3</button>
+        <button class="buttons" value="4" onclick="insertNumber(this.value)">4</button>
+        <button class="buttons" value="5" onclick="insertNumber(this.value)">5</button>
+        <button class="buttons" value="6" onclick="insertNumber(this.value)">6</button>
+        <button class="buttons" value="7" onclick="insertNumber(this.value)">7</button>
+        <button class="buttons" value="8" onclick="insertNumber(this.value)">8</button>
+        <button class="buttons" value="9" onclick="insertNumber(this.value)">9</button>
+        <button class="buttons" value="0" onclick="insertNumber(this.value)">0</button>
+        <button class="buttons equal" value="=" onclick="clear()">=</button>
       </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
+

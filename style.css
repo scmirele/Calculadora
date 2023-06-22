@@ -21,16 +21,20 @@ main {
   flex-direction: column;
   justify-content: center;
   border-radius: 18px;
-
   background-color: #1C1148;
   box-shadow: 10px 15px 15px 5px rgba(79, 58, 161, 0.5);
 }
 
 .screen {
-  margin: 30px;
-  margin-bottom: 30px;
-  width: 80%;
-  height: 25%;
+  color: #F2DA00;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 38px;
+  padding: 15px;
+  width: 75%;
+  height: 22%;
+  margin: 28px;
   border-radius: 15px;
   background-color: #27166D
 }
@@ -47,6 +51,7 @@ main {
 }
 
  .buttons {
+  border: none;
   width: 62px;
   height: 62px; 
   display: flex;
@@ -56,12 +61,14 @@ main {
   border-radius: 100%;
   align-items: center;
   justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
   background-color: var(--buttons-origin-color);
   /* outline-color: var(--buttons-color); */
  }
 
  .buttons:hover { 
   background-color: #27166D;
+  border: solid 1px white;
 
  }
 
