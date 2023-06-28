@@ -33,24 +33,11 @@ function calculate() {
     //        return(NaN)
 //   }
 // }
-          
-          // function insertOperation(op) {
-            //   let operation = document.querySelector('.screen').innerHTML;
             
-            // function back() {
-              //   let screen = document.querySelector('.screen').innerHTML;  
-              //   document.querySelector('.screen').innerHTML = screen.substring(0, screen.length -1);
-              // }
-              
-              // buttons.addEventListener("onclick")
-  
   //   document.querySelector('.screen').innerHTML = operation + op;  
   // }
   // buttons.addEventListener("click")
   // buttonsValores.addEventListener("click", calculate)
-  
-  
-  
   
   // let buttons = document.querySelectorAll('.container-buttons')
   // let buttonsValores = document.querySelectorAll('.buttons')
