@@ -14,24 +14,27 @@
   <main>
     <div class="screen"></div>
       <div class="container-buttons">
+        <button class="buttons operadores" onclick="insertNumberOperation('+')">+</button> 
+        <button class="buttons operadores" onclick="insertNumberOperation('-')">-</button>
+        <button class="buttons operadores" onclick="insertNumberOperation('*')">*</button>
+        <button class="buttons operadores" onclick="insertNumberOperation('/')">/</button>
+
+        <button class="buttons all-clean" onclick="clean()">AC</button>
+
+        <button class="buttons" onclick="insertNumberOperation('1')">1</button>
+        <button class="buttons" onclick="insertNumberOperation('2')">2</button>
+        <button class="buttons" onclick="insertNumberOperation('3')">3</button>
+        <button class="buttons" onclick="insertNumberOperation('4')">4</button>
+        <button class="buttons" onclick="insertNumberOperation('5')">5</button>
+        <button class="buttons" onclick="insertNumberOperation('6')">6</button>
+        <button class="buttons" onclick="insertNumberOperation('7')">7</button>
+        <button class="buttons" onclick="insertNumberOperation('8')">8</button>
+        <button class="buttons" onclick="insertNumberOperation('9')">9</button>
+        <button class="buttons" onclick="insertNumberOperation('0')">0</button>
         
-        <div class="buttons operadores">+</div>
-        <div class="buttons operadores">-</div>
-        <div class="buttons operadores">x</div>
-        <div class="buttons operadores">/</div>
-        <div class="buttons all-clean">AC</div>
-        <div class="buttons">1</div>
-        <div class="buttons">2</div>
-        <div class="buttons">3</div>
-        <div class="buttons">4</div>
-        <div class="buttons">5</div>
-        <div class="buttons">6</div>
-        <div class="buttons">7</div>
-        <div class="buttons">8</div>
-        <div class="buttons">9</div>
-        <div class="buttons">0</div>
-        <div class="buttons">=</div>
+        <button class="buttons equal" onclick="calculate()">=</button>
       </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
